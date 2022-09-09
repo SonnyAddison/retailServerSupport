@@ -5,10 +5,10 @@
 
   ## Description
 
-
+This retail server support application allows one to interact with their SQL retail database system uisng Insonmia for a User Interface.  This database has the full CRUD (Create, Read, Update, and Delete) functions.  
  
 
-## User Sory
+## User Story
 
 AS A manager at an internet retail company  
 I WANT a back end for my e-commerce website that uses the latest technologies  
@@ -42,27 +42,63 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
- 
+- Clone this repository to your own computer.
+- Open the intergrated terminal within you chosen code editor.
+- If you do not have npm installed type npm init -y.
+- Open the pachage.json file and verify that their is a seed command, and a start command.
+- Open mysql within the intergrated terminal by typing mysql -u root -p, and then enter your password.
+- Once inside mysql type in: source db/schema.sql;
+- Verify that ecommerce_db is installed from the schema by typing: show databases;
+- Once verified, type: exit, to leave mysql.
+- Now we need to seed the database by typeing: npm run seed.
+- Last thing to do is to start the server by entering: npm start.
+- Use Insomnia to interact with server. 
   
 ---
 
-## Usage
+## Usage  
 
-  Once the application is running answer the questions that generate i.e. "What is the Name of your project?.  Be sure that you enter all information that is asked before hitting enter. (Very important note if you have a lot of information to present). *At this time you will have manually enter any screenshots you want to add, this will be a quick follow on tech debt to correct.  
-  
+To interact with the server you will need to use insomnia for the user interface.  
 
-![Answer all questions or go no further](/Develop/assets/images/haveToAnswersAllQuestions.jpg)  
+---
+### Open insomnia  
 
-![All questions answered](/Develop/assets/images/questionsAnswered.jpg)  
+![Open](/public/images/startingInsomnia.jpg)  
 
-Viedo Tutorial  
+---
+### Read Product table from database  
+
+![Product](/public/images/getProducts.jpg)  
+
+---
+
+### Read Categories Table from database  
+
+![Categories](/public/images/getCategories.jpg) 
+
+---
+### Create Category 
+
+![Create Category](/public/images/createCategories.jpg)  
+
+---
+### Create Product
+
+![Create Products](/public/images/createProduct.jpg)  
+
+---
+
+
+### Viedo Tutorial  
 https://drive.google.com/file/d/1lQmzbrXZJD8MjBA-1oTJNYcsxeeqh9cj/view?usp=sharing
+
+### GitHub Repository
 
 ---
 ## Credits
 
-Thank you to Coding-Boot-Camp for their Starter Code on this project:
-https://github.com/coding-boot-camp
+Thank you to UofA for their Starter Code on this project:
+https://ua.bootcampcontent.com/UA-Coding-Bootcamp/UofA-VIRT-FSF-PT-04-2022-U-LOLC/-/tree/main/13-ORM/02-Challenge
   
   
 ---
@@ -92,8 +128,6 @@ SOFTWARE.
 
 
 ---
-
-## How to Contribute
 
 # Contributor Covenant Code of Conduct
 
