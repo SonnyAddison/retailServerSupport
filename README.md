@@ -90,10 +90,10 @@ To interact with the server you will need to use insomnia for the user interface
 
 
 ### Viedo Tutorial  
-https://drive.google.com/file/d/1lQmzbrXZJD8MjBA-1oTJNYcsxeeqh9cj/view?usp=sharing
+https://drive.google.com/file/d/1n51DSva_1pPscCv8n9ExgEuIJMc_FHLQ/view
 
 ### GitHub Repository
-
+https://github.com/SonnyAddison/retailServerSupport#license
 ---
 ## Credits
 
